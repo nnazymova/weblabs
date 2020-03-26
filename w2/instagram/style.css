@@ -1,0 +1,112 @@
+body{
+    background-color: #FAFAFB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#insta-page{
+    width:450px;
+    position: absolute;
+    left:270px;
+    top:100px;
+}
+
+.login-block{
+    background-color: white;
+    width:320px;
+    height:600px;
+    position: relative;
+    left: 720px;
+    top:60px;
+    text-align: center;
+    border: rgb(177, 177, 177) solid 0.5px;
+}
+
+#logo{
+    width:200px;
+    margin-top:20px;
+    align-content: center
+}
+
+.reg{
+    margin-top: 1px;
+    color: #999;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+#fb_login{
+    height: 30px;
+    width: 270px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+form hr{
+    width:60%;
+    height: 1px;
+    background-color: rgb(219, 216, 216);
+    border: none;
+    text-align: center;
+}
+
+.input {
+    margin-bottom: 15px;
+    width: 270px;
+    height:25px;
+    color:#999;
+    line-height: 25px;
+    font-size: 12px;
+    text-align: left;
+}
+
+.submit{
+    margin-bottom: 15px;
+    width: 270px;
+    height:30px;
+    background-color: rgb(71, 152, 245);
+    color:white;
+    font-size:14px;
+    font-family: 'Hind Madurai', sans-serif;
+    border-radius: 5px;
+    font-weight:bold;
+    border: rgb(71, 152, 245) solid 0.5px;
+}
+
+.reg{
+    margin-top:1px;
+    color: #999;
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.conditions{
+    text-decoration: none;
+    color: #999;
+    font-weight: bold;
+}
+
+#foot{
+    height:55px;
+    width:320px;
+    border: rgb(177, 177, 177) solid 0.5px;
+    line-height: 65px;
+    color:rgb(68, 68, 68);
+    background-color: white;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#app{
+    font-size: 16px;
+    color:rgb(68, 68, 68);
+    margin-bottom: 40px;
+}
+
+#login{
+    text-decoration: none;
+    color:rgb(71, 152, 245);
+}
