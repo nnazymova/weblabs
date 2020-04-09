@@ -1,0 +1,27 @@
+<div style="text-align: center; padding-bottom: 15px; padding-top:15px;">
+  <a style="width: 100%; color: white;"> All Products</a>
+</div>
+<div class="container">
+  <div
+    class="product-item"
+    *ngFor="let product of products"
+    routerLink="/product-id/{{ product.id }}"
+  >
+    <h3>
+      <a [title]="product.name">
+        {{ product.name }}
+      </a>
+    </h3>
+    <img src="{{ product.image1 }}" />
+    <br />
+    <h4 class="price">${{ product.price }}</h4>
+
+    <span style="color: red;float:right;font-size: 14px;">
+      &#9733;{{ product.rating }}
+    </span>
+
+    <div style="display:flex;justify-content:space-between; padding-top: 10px;">
+      <a href="{{ product.wlink }}" target="_blank"><button>Share via Whatsapp</button></a>
+    </div>
+  </div>
+</div>

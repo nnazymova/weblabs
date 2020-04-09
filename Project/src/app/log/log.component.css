@@ -1,0 +1,120 @@
+.main-area {
+  padding-top: 50px;
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+}
+.block {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 400px;
+  background: linear-gradient(rgba(187, 180, 172, 1), rgba(187, 180, 172, 0.9));
+  border: 1px solid rgb(21, 13, 16);
+  border-radius: 1px;
+  text-align: center;
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.block h1 {
+  font-weight: bold;
+  font-size: 50px;
+  color: rgb(21, 13, 16);
+}
+
+.block h2 {
+  line-height: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 3px;
+  margin-bottom: 20px;
+  color: rgb(39, 29, 40);
+}
+
+button {
+  display: inline-block;
+  position: relative;
+  border: none;
+  color: rgb(187, 180, 172);
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 18px 30px;
+  background: rgb(80, 51, 61);
+}
+
+span{
+  display: block;
+  padding: 15px 100px;
+}
+
+button::before, button::after{
+  content:"";
+  width: 0;
+  height: 4px;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: rgb(21, 13, 16);
+}
+
+span::before, span::after{
+  content:"";
+  width: 4px;
+  height:0;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: rgb(21, 13, 16);
+}
+
+button:hover::before, button:hover::after{
+  width: 100%;
+}
+
+button:hover span::before, button:hover span::after{
+  height: 100%;
+}
+
+button::after{
+  left:0;
+  bottom: 0;
+  transition-duration: 0.4s;
+}
+button span::after{
+  right:0;
+  top: 0;
+  transition-duration: 0.4s;
+}
+button::before{
+  right: 0;
+  top: 0;
+  transition-duration: 0.4s;
+}
+button span::before{
+  left: 0;
+  bottom: 0;
+  transition-duration: 0.4s;
+}
+
+.block form {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.block input {
+  margin-bottom: 6px;
+  width: 300px;
+  background-color: rgb(250, 250, 250);
+  border-radius: 3px;
+  border: 1px solid rgb(21, 13, 16);
+  padding-bottom: 9px;
+  padding-top: 9px;
+  padding-left: 8px;
+}
+
+::placeholder {
+  color: rgb(21, 13, 16);
+  font-size: 12px;
+}

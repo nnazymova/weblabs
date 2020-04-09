@@ -1,0 +1,20 @@
+<app-nav>
+</app-nav>
+<h2 style="text-align:center; color: white">{{category.name}}</h2>
+<div class="products">
+    <div class="product-item" *ngFor="let product of products" routerLink="/product-id/{{product.id}}" >
+
+        <h3>
+            <a [title]="product.name" class="name">
+                {{ product.name }}
+            </a>
+        </h3>
+        <img src="{{product.image1}}">
+        <br>
+        <h4 class="price"> ${{ product.price }} </h4>
+        <p style="color: red;float:right;font-size: 14px;"> &#9733; {{ product.rating }}
+        </p>
+
+        <a href="{{product.wlink}}" target="_blank"><button>Share via Whatsapp</button></a>
+    </div>
+</div>
