@@ -1,6 +1,6 @@
-<a href="{{product.link}}" >
+
 <div class="product" target="_blank" routerLink="/product-item">
-    <img src="{{product.image1}}">
+  <a href="{{product.link}}" ><img src="{{product.image1}}"></a>
     <br>
     <p class="name">{{product.name}}</p>
     <br>
@@ -11,4 +11,9 @@
     <p class="desc">{{product.description}}</p>
     <br>
     <a href="{{product.wlink}}" target="_blank"><button>Share via Whatsapp</button></a>
-</div></a>
+    <br>
+    <div>Likes {{product.like}}</div>
+    <br>
+    <button (click) = "like()">Like</button>
+    <button (click) = "dislike()">Dislike</button>
+</div>

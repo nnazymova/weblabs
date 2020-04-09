@@ -24,8 +24,13 @@ export class ProductItemComponent implements OnInit {
         const id = +this.route.snapshot.paramMap.get('id');
         this.productService.getProduct(id).subscribe(product => this.product = product);
     }
-    share(){
-
+    like(){
+        const id = +this.route.snapshot.paramMap.get('id');
+        this.product.like++;
+    }
+    dislike(){
+      const id = +this.route.snapshot.paramMap.get('id');
+      this.product.like--;
     }
 
 }
