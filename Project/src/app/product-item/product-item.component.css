@@ -10,7 +10,6 @@
     padding: 12px;
 
 
-    transition: box-shadow 0.5s, transform 0.5s;
     box-shadow: 2px 2px 5px transparentize(black, 0.9);
 }
 

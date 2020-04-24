@@ -1,0 +1,120 @@
+.main-area {
+  padding-top: 50px;
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+}
+.block {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 400px;
+  background: linear-gradient(rgba(187, 180, 172, 1), rgba(187, 180, 172, 0.9));
+  border: 1px solid rgb(21, 13, 16);
+  border-radius: 1px;
+  text-align: center;
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.main-areaa {
+  padding-top: 50px;
+  height: 650px;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+}
+
+.blockk {
+  width: 500px;
+  height: 550px;
+  background: linear-gradient(rgba(187, 180, 172, 1), rgba(187, 180, 172, 0.9));
+  border: 1px solid rgb(21, 13, 16);
+  border-radius: 1px;
+  text-align: center;
+  padding-top: 35px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.block h1 {
+  font-weight: bold;
+  font-size: 50px;
+  color: rgb(21, 13, 16);
+}
+
+.block h2 {
+  line-height: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 3px;
+  margin-bottom: 20px;
+  color: rgb(39, 29, 40);
+}
+.blockk h1 {
+  font-weight: bold;
+  font-size: 50px;
+  color: rgb(21, 13, 16);
+}
+
+.blockk h2 {
+  line-height: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 3px;
+  margin-bottom: 20px;
+  color: rgb(39, 29, 40);
+}
+.blockk form {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.blockk input {
+  margin-bottom: 6px;
+  width: 300px;
+  background-color: rgb(250, 250, 250);
+  border-radius: 3px;
+  border: 1px solid rgb(21, 13, 16);
+  padding-bottom: 9px;
+  padding-top: 9px;
+  padding-left: 8px;
+}
+
+button {
+  font-weight: 500;
+  background-color: wheat;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+button:hover{
+  background-color: #01a89e;
+}
+
+.block form {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.block input {
+  margin-bottom: 6px;
+  width: 300px;
+  background-color: rgb(250, 250, 250);
+  border-radius: 3px;
+  border: 1px solid rgb(21, 13, 16);
+  padding-bottom: 9px;
+  padding-top: 9px;
+  padding-left: 8px;
+}
+
+::placeholder {
+  color: rgb(21, 13, 16);
+  font-size: 12px;
+}

@@ -1,0 +1,25 @@
+<div class="main-area">
+  <div class="block">
+    <h1>Sign in</h1>
+    <form>
+      <h2>Please write correct information</h2>
+      <input type="text" placeholder="Username" name="username" [(ngModel)]="loginModel.username">
+      <input type="password" placeholder="Password" name="password" [(ngModel)]="loginModel.password">
+      <button (click)="onLogin()"><span>Sign in</span></button>
+    </form>
+  </div>
+</div>
+<div class="main-areaa">
+  <div class="blockk">
+    <h1>Sign Up</h1>
+    <form>
+      <h2>PLease write correct information</h2>
+      <input type="text" placeholder="Email" name="email" [(ngModel)]="registerModel.email">
+      <input type="text" placeholder="First Name" name="firstname" [(ngModel)]="registerModel.firstname">
+      <input type="text" placeholder="Last Name" name="lastname" [(ngModel)]="registerModel.lastname">
+      <input type="text" placeholder="Username" name="username" [(ngModel)]="registerModel.username">
+      <input type="password" placeholder="Password" name="password" [(ngModel)]="registerModel.password">
+      <button (click)="onRegister()"><span>Sign up</span></button>
+    </form>
+  </div>
+</div>
